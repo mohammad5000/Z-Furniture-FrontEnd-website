@@ -1,0 +1,228 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    background-color: #010100FC;
+    height: 100vh;
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: #E3B04B!important;
+}
+.active:hover{
+    color: #fadf87!important;
+}
+.nav-link{
+padding:25px 25px!important;
+color: #FFF;
+font-size: 16px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 530;
+line-height: normal;
+}
+.nav-link:hover{
+    color: goldenrod;
+}
+#logo{
+    user-select: none;
+    color:#E3B04B;
+    position: relative;
+    font-weight: 500;
+    font-family: Montserrat;
+    top: 4px;
+    right: 29px;
+}
+
+.a1-cont{
+    margin-top: 100px;
+}
+.a1-t-cont{
+position: relative;
+left: 100px;
+padding: 30px 0;
+}
+.a1-btn{
+width:fit-content;
+padding: 20px 20%;
+border-radius: 40px;
+background-color: #F1D6AB;
+font-size: 16px;
+font-weight:bolder;
+font-family: Montserrat;
+transition: all 0.3s ease-in-out;
+text-transform:uppercase;
+color: black;
+}
+.a1-btn:hover{
+    background-color: #d49f34;
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+.a1-img{
+    border-radius: 35px;
+    z-index: -1;
+    width:806px ;
+    height:419px;
+}
+.a1-title{
+color: #E3B04B;
+font-size: 48px;
+font-family: Montserrat;
+font-style:normal;
+font-weight: 500;
+line-height: 65px;
+}
+
+
+/* area 2 */
+.a2-cont{
+    margin-top: 200px;
+}
+.a2-title{
+    padding-bottom: 50px;
+}
+.a2-img-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.a2-img2{
+    position: relative;
+    bottom:30px
+}
+
+
+.a3-cont{
+    margin-top: 150px;
+}
+
+
+footer{
+    margin-top: 200px;
+}
+.foot-cont{
+    margin: 30px 0;
+
+}
+.foot-cont a{
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+}
+.foot-cont:nth-child(1){
+    color: #d49f34;
+}
+.soci-cont{
+    position: relative;
+    left: 15px;
+}
+.soci-cont a{
+   padding: 0 15px;
+   transition: all 0.3s ease-in-out;
+}
+.soci-cont a:hover{
+    color:#E3B04B;
+    transition: all 0.3s ease-in-out;
+}
+.foot-see{
+    
+    text-decoration:underline; 
+    text-transform: uppercase; 
+    transition: all 0.3s ease-in-out;
+
+   
+}
+.foot-see:hover{
+    color:#E3B04B;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1199.98px) {
+    .a1-img{
+       width: 706px;
+       height: 419px;
+    }
+   .a1-title{
+    font-size: 35px;
+   }
+   .a1-title{
+    line-height: 55px;
+}
+
+
+
+   .a2-img{
+    width: 257px;
+    height: 335px;
+  }
+
+
+
+  .a3-img{
+    width: 257px;
+    height: 335px;
+  }
+  }
+@media only screen and (max-width: 991.98px) {
+    .a1-img{
+       width: 506px;
+       height: 319px;
+    }
+    .a1-title{
+        font-size: 30px;
+       }
+    .a1-t-cont{
+        left: 60px;
+    }
+    .a1-title{
+        line-height: 45px;
+    }
+    .a1-btn{
+        font-size: 14px;
+    }
+
+    .a2-img-cont{
+        flex-direction: column;
+    }
+
+    .a2-img2{
+        position: relative;
+        bottom:0px
+    }
+
+  }
+@media only screen and (max-width: 767.98px) { 
+    .a1-img{
+        display: none;
+    }
+    .a1-cont{
+        background-image: url("dark-living-room-interior-design-with-sofa-plant-3d-rendering-background_517102-221.avif");
+        background-position-y: center;
+        background-size: cover;
+        border: 40px;
+    }
+    .a1-title{
+        line-height: 45px;
+    }
+    .a1-t-cont{
+        align-items: center;
+        left: 0;
+        text-align: center;
+    }
+    .soci-cont{
+        position: relative;
+        left: 30px;
+    }
+   }

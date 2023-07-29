@@ -1,0 +1,4 @@
+F8F8F8 gray
+F1D6AB yellow
+E3B04B gold
+111111 black

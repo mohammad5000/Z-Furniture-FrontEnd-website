@@ -1,0 +1,164 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    background-color: #010100FC;
+    height: 100vh;
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: #E3B04B!important;
+}
+.active:hover{
+    color: #fadf87!important;
+}
+.nav-link{
+padding:25px 25px!important;
+color: #FFF;
+font-size: 16px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 530;
+line-height: normal;
+}
+.nav-link:hover{
+    color: goldenrod;
+}
+#logo{
+    user-select: none;
+    color:#E3B04B;
+    position: relative;
+    font-weight: 500;
+    font-family: Montserrat;
+    top: 4px;
+    right: 29px;
+}
+.a1-title{
+    color: #E3B04B;
+    
+}
+.fa-solid{
+    color: #E3B04B;
+    
+}
+.a1-cont{
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.col-title{
+    font-size: 21px;
+    font-weight: 600;
+    color: #E3B04B;
+
+}
+
+form input, textarea{
+    margin: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+   padding: 10px 15px;
+   color: black;
+   font-weight: 300;
+}
+input:focus::placeholder ,textarea:focus::placeholder {
+    color: transparent;
+  }
+input::placeholder,textarea::placeholder{
+    color: black;
+    font-family: Inter;
+}
+.btn{
+    width: 60%;
+    margin: auto;
+    background-color: #fadf87;
+    color: #000;
+}
+.btn:hover{
+    background-color: #d49f34;
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+.a3-cont{
+    width: 80%;
+}
+footer{
+    margin-top: 200px;
+}
+.foot-cont{
+    margin: 30px 0;
+
+}
+.foot-cont a{
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+}
+.foot-cont:nth-child(1){
+    color: #d49f34;
+    
+}
+.soci-cont{
+    position: relative;
+    left: 15px;
+}
+.soci-cont a{
+   padding: 0 15px;
+   transition: all 0.3s ease-in-out;
+}
+.soci-cont a:hover{
+    color:#E3B04B;
+    transition: all 0.3s ease-in-out;
+}
+.foot-see{
+    
+    text-decoration:underline; 
+    text-transform: uppercase; 
+    transition: all 0.3s ease-in-out;
+
+   
+}
+.foot-see:hover{
+    color:#E3B04B;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1199.98px) {
+
+}
+@media only screen and (max-width: 991.98px) {
+    
+    .a1-cont{
+        width: 80%;
+        margin-top: 100px;
+    }
+    .a1-1-cont{
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+    .a3-cont{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767.98px) { 
+    .a1-cont{
+        width: 100%;
+    }
+    .form-cont{
+        width: 100%;
+        margin: auto;
+    }
+    .soci-cont{
+       
+        left: 30px;
+    }
+   }
